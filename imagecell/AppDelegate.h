@@ -10,6 +10,11 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property IBOutlet NSImageView *img;
+- (IBAction)click2:(id)sender;
+
+- (IBAction)click:(id)sender;
+
 
 @end
 

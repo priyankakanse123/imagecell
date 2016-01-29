@@ -13,6 +13,10 @@
 		0A0575C21C251A2900056877 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0575C01C251A2900056877 /* MainMenu.xib */; };
 		0A0575CD1C251A2900056877 /* imagecellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0575CC1C251A2900056877 /* imagecellTests.m */; };
 		0A0575D81C251A2900056877 /* imagecellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0575D71C251A2900056877 /* imagecellUITests.m */; };
+		0A0575E61C251A5E00056877 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0575E51C251A5E00056877 /* image1.jpg */; };
+		0A0575E81C251F1100056877 /* grass_PNG4930.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0575E71C251F1100056877 /* grass_PNG4930.png */; };
+		0A0575EA1C2523CB00056877 /* PNG_transparency_demonstration_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0575E91C2523CB00056877 /* PNG_transparency_demonstration_1.png */; };
+		0A0575EC1C25241200056877 /* PNG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0575EB1C25241200056877 /* PNG1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		0A0575D31C251A2900056877 /* imagecellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagecellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0575D71C251A2900056877 /* imagecellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imagecellUITests.m; sourceTree = "<group>"; };
 		0A0575D91C251A2900056877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0575E51C251A5E00056877 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		0A0575E71C251F1100056877 /* grass_PNG4930.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass_PNG4930.png; sourceTree = "<group>"; };
+		0A0575E91C2523CB00056877 /* PNG_transparency_demonstration_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNG_transparency_demonstration_1.png; sourceTree = "<group>"; };
+		0A0575EB1C25241200056877 /* PNG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PNG1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 		0A0575B71C251A2900056877 /* imagecell */ = {
 			isa = PBXGroup;
 			children = (
+				0A0575E71C251F1100056877 /* grass_PNG4930.png */,
+				0A0575E91C2523CB00056877 /* PNG_transparency_demonstration_1.png */,
+				0A0575EB1C25241200056877 /* PNG1.png */,
+				0A0575E51C251A5E00056877 /* image1.jpg */,
 				0A0575B81C251A2900056877 /* AppDelegate.h */,
 				0A0575B91C251A2900056877 /* AppDelegate.m */,
 				0A0575BE1C251A2900056877 /* Assets.xcassets */,
@@ -235,8 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0575E81C251F1100056877 /* grass_PNG4930.png in Resources */,
 				0A0575BF1C251A2900056877 /* Assets.xcassets in Resources */,
 				0A0575C21C251A2900056877 /* MainMenu.xib in Resources */,
+				0A0575EC1C25241200056877 /* PNG1.png in Resources */,
+				0A0575EA1C2523CB00056877 /* PNG_transparency_demonstration_1.png in Resources */,
+				0A0575E61C251A5E00056877 /* image1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
